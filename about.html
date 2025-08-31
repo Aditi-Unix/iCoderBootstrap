@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap 5 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <title>iCoder - Heaven for Programmers</title>
+
+    <style>
+      /* Navbar link style */
+      .navbar-nav .nav-link {
+        color: #bfbfbf; /* default: light grey */
+        transition: color 0.3s ease;
+      }
+
+      .navbar-nav .nav-link:hover {
+        color: #ffffff; /* hover pe white */
+      }
+
+      .navbar-nav .nav-link.active {
+        color: #ffffff; /* active page link hamesha white */
+      }
+
+      /* Dropdown items */
+      .dropdown-menu .dropdown-item {
+        color: #bfbfbf; /* light grey */
+        transition: color 0.3s ease, background-color 0.3s ease;
+      }
+
+      .dropdown-menu .dropdown-item:hover {
+        color: #ffffff; /* hover pe white */
+        background-color: #343a40; /* halka dark bg hover pe */
+      }
+    </style>
+  </head>
+  <body>
+    <!-- ✅ Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body">
+      <div class="container-fluid">
+        <a class="navbar-brand" style="color: aliceblue" href="#">iCoder</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/blog.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="/about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Topics
+              </a>
+              <ul class="dropdown-menu bg-dark">
+                <li><a class="dropdown-item" href="#">Technology</a></li>
+                <li><a class="dropdown-item" href="#">Web Development</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Support</a>
+                  <a class="dropdown-item" href="#">Write for us</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="/contact.html">Contact Us</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ✅ About Content -->
+    <div class="container my-4">
+      <div
+        class="row featurette d-flex justify-content-center align-items-center"
+      >
+        <div class="col-md-7 order-md-1">
+          <h2 class="featurette-heading fw-normal lh-1">
+            It's all started with iCoder's idea.
+            <span class="text-body-secondary"></span>
+          </h2>
+          <p class="lead">
+            Some great placeholder content for the first featurette here.
+            Imagine some exciting prose here.Some great placeholder content for
+            the first featurette here. Imagine some exciting prose here.
+          </p>
+        </div>
+        <div class="col-md-5 order-md-2">
+          <img
+            class="img-fluid"
+            src="https://reenphygeorge.github.io/iCoder/ab1.jpg"
+            alt=""
+            height="500"
+            width="500"
+          />
+        </div>
+      </div>
+
+      <div
+        class="row featurette d-flex justify-content-center align-items-center"
+      >
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading fw-normal lh-1">
+            We started iCoder in 2002.
+            <span class="text-body-secondary"></span>
+          </h2>
+          <p class="lead">
+            Some great placeholder content for the first featurette here.
+            Imagine some exciting prose here.Some great placeholder content for
+            the first featurette here. Imagine some exciting prose here.
+          </p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img
+            class="img-fluid"
+            src="https://tse4.mm.bing.net/th/id/OIP.UjlxCaqEEbjJ20dHUtX2QAHaE8?pid=Api&P=0&h=180"
+            alt=""
+            height="500"
+            width="500"
+          />
+        </div>
+      </div>
+
+      <div
+        class="row featurette d-flex justify-content-center align-items-center"
+      >
+        <div class="col-md-7 order-md-1">
+          <h2 class="featurette-heading fw-normal lh-1">
+            <span class="text-body-secondary">It'll blow your mind.</span>
+          </h2>
+          <p class="lead">
+            Some great placeholder content for the first featurette here.
+            Imagine some exciting prose here.Some great placeholder content for
+            the first featurette here. Imagine some exciting prose here.
+          </p>
+        </div>
+        <div class="col-md-5 order-md-2">
+          <img
+            class="img-fluid"
+            src="https://reenphygeorge.github.io/iCoder/ab3.jpg"
+            alt=""
+            height="500"
+            width="500"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- footers -->
+    <footer class="container">
+      <p class="float-end"><a href="#">Back to top</a></p>
+      <p>
+        © 2025-2026 iCoder, Inc. · <a href="#">Privacy</a> ·
+        <a href="#">Terms</a>
+      </p>
+    </footer>
+
+    <!-- Bootstrap 5 Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
